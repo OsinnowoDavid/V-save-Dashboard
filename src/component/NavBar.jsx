@@ -6,10 +6,10 @@ const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-[#0A1A2F] shadow-[0px_1px_2px_rgba(0,0,0,0.3),0px_1px_3px_1px_rgba(0,0,0,0.15)]">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-[#ffff] shadow-[0px_1px_2px_rgba(0,0,0,0.3),0px_1px_3px_1px_rgba(0,0,0,0.15)]">
       <div className="mx-auto max-w-[1200px] h-[84px] px-4 sm:px-6 relative">
         {/* Logo */}
-        <div className="absolute left-4 sm:left-6 top-1/2 -translate-y-1/2 w-[56px] h-[46px] sm:w-[69px] sm:h-[56px] bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center">
+        <div className="absolute left-4 sm:left-6 top-1/2 -translate-y-1/2 w-[70px] h-[46px] sm:w-[69px] sm:h-[56px]  rounded-lg flex items-center justify-center">
           <img className="text-white font-bold text-base sm:text-xl" src={Vsave}></img>
         </div>
 
